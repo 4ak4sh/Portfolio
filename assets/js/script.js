@@ -23,9 +23,9 @@ sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); }
 // const overlay = document.querySelector("[data-overlay]");
 
 // modal variable
-const modalImg = document.querySelector("[data-modal-img]");
-const modalTitle = document.querySelector("[data-modal-title]");
-const modalText = document.querySelector("[data-modal-text]");
+// const modalImg = document.querySelector("[data-modal-img]");
+// const modalTitle = document.querySelector("[data-modal-title]");
+// const modalText = document.querySelector("[data-modal-text]");
 
 // modal toggle function
 // const testimonialsModalFunc = function () {
