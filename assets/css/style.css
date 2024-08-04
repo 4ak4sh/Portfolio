@@ -591,6 +591,10 @@ main {
   scroll-snap-align: center;
 }
 
+.testimonials-avatar-box img {
+  padding: 20%;
+}
+
 .testimonials-avatar-box {
   position: absolute;
   top: 0;
@@ -601,9 +605,7 @@ main {
   box-shadow: var(--shadow-1);
 }
 
-.testimonials-avatar-box img {
-  padding: 20%;
-}
+
 
 .testimonials-item-title { margin-bottom: 7px; }
 
