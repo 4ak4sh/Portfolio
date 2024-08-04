@@ -131,6 +131,10 @@ li { list-style: none; }
 
 img, ion-icon, a, button, time, span { display: block; }
 
+img {
+  pointer-events: none;
+}
+
 button {
   font: inherit;
   background: none;
@@ -279,7 +283,7 @@ article.active {
   padding-top: 45px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
-  cursor: pointer;
+  /* cursor: pointer; */
   z-index: 1;
 }
 
@@ -597,6 +601,10 @@ main {
   box-shadow: var(--shadow-1);
 }
 
+.testimonials-avatar-box img {
+  padding: 20%;
+}
+
 .testimonials-item-title { margin-bottom: 7px; }
 
 .testimonials-text {
@@ -616,7 +624,7 @@ main {
  * #testimonials-modal
  */
 
-.modal-container {
+/* .modal-container {
   position: fixed;
   top: 0;
   left: 0;
@@ -723,14 +731,14 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
-}
+} */
 
 
 /**
  * #clients 
  */
 
-.clients { margin-bottom: 15px; }
+/* .clients { margin-bottom: 15px; }
 
 .clients-list {
   display: flex;
@@ -758,7 +766,7 @@ main {
   transition: var(--transition-1);
 }
 
-.clients-item img:hover { filter: grayscale(0); }
+.clients-item img:hover { filter: grayscale(0); } */
 
 
 
@@ -1438,10 +1446,10 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-left: 95px;
   }
 
-  .testimonials-text {
+  /* .testimonials-text {
     line-clamp: 2;
     -webkit-line-clamp: 2;
-  }
+  } */
 
   /* testimonials modal */
 
