@@ -595,6 +595,10 @@ main {
   padding: 20%;
 }
 
+.capcut-logo {
+  border-radius: 100px;
+}
+
 .testimonials-avatar-box {
   position: absolute;
   top: 0;
@@ -880,7 +884,6 @@ main {
   height: 100%;
   border-radius: inherit;
 }
-
 
 
 
